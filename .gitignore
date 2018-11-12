@@ -1,0 +1,8 @@
+vendor
+coverage.out
+.idea
+**/*.log
+ethstats
+_vendor-*
+*.*~
+*~
