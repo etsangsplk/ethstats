@@ -8,6 +8,12 @@ Go implementation of an ethstats collection server.
 - `/` returns a JSON response with the current connected nodes. Details can be
     fetched by specifying the node ID with the `node` param.
 
+## First timer
+
+Make sure you have the latest release of go dep installed. Then dep ensure to pull down vendor.
+However go-ethereum depends on some c files which may not be pulled down, you may have to go to the vendor location of go-ethereum, remove go-ethereum entirely and git clone the correct version a indicated in Gopkg.toml. Go build -a -v ./... everything and see if compilation works.
+
+
 ## Quickstart
 
 ```
